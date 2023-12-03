@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/margin_24"
+    android:layout_marginTop="@dimen/margin_8"
+    android:paddingRight="@dimen/margin_24">
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:id="@+id/text_view_body"
+        style="@style/Description"
+        tools:text="THIS IS A PARAGRAPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
